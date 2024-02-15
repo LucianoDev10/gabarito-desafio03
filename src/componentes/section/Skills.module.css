@@ -1,0 +1,58 @@
+
+.skill p{
+    font-size: 45px;
+    text-align: start;
+}
+
+.skill p{
+    font-size: 20px;
+}
+
+/* Skills.module.css */
+.skillsContainer {
+    background: #EDF7FA;
+    margin: 75px;
+    padding: 25px;
+    margin-left: 0px;
+}
+
+.blogsContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.blogTitle {
+    font-size: 25px;
+    text-align: start;
+    margin-left: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blogCard {
+    background: #FFFFFF;
+    margin: 0 10px; /* Adjust the margin to space out the blog cards */
+    padding: 10px;
+    flex-basis: calc(33% - 20px); /* Adjust width to account for margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blogInfo {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogInfo p {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.textoBlog{
+    text-align: start;
+    margin-left: 40px;
+}

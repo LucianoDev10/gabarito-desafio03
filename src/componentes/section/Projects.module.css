@@ -1,0 +1,71 @@
+  /* Adicione isso ao seu arquivo ProjectItem.module.css */
+  .container {
+    display: flex;
+    flex-direction: column; /* Isso organiza os filhos em uma coluna */
+  }
+.projects{
+    text-align: justify;
+    margin-left: 75px;
+}
+
+.projects p{
+    font-size: 25px;
+}
+
+.blogTitle {
+  font-size: 25px;
+  text-align: start;
+  margin-left: 140px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.projectItem {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    color: black; /* Ajuste a cor do texto conforme o necessário */
+  }
+  
+  .projectImage {
+    width: 15%; /* Ajuste a largura conforme necessário */
+    margin-left: 120px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .projectContent {
+    margin-left: 20px;
+    width: 60%; /* Ajuste a largura conforme necessário */
+    text-align: left;
+  }
+  
+  .projectTitle {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-bottom: 10px;
+  }
+  
+  .projectDescription {
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
+  /* ProjectItem.module.css */
+.divider {
+    height: 10px;
+    background-color: #E0E0E0; /* cor da linha */
+    margin-top: 1px; /* espaço acima da linha */
+  }
+
+  .projectItem {
+    /* ... seus estilos ... */
+    position: relative; /* necessário para posicionar corretamente o pseudo-elemento */
+  }
+
+.divider {
+  align-items: center;
+  height: 1px; /* altura da linha */
+  background-color: #E0E0E0; /* cor da linha */
+  width: 80%;
+}
+
+  

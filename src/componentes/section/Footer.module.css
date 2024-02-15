@@ -1,0 +1,26 @@
+/* Footer.module.css */
+.footer {
+    display: flex;
+    flex-direction: column; /* Isso irá empilhar os elementos verticalmente */
+    align-items: center; /* Isso irá centralizá-los horizontalmente */
+    margin-top: 200px;
+    text-align: center; /* Isso centraliza o texto para todos os filhos do contêiner footer */
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0; /* Remove o padding padrão */
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Isso cria espaço entre os itens da lista */
+    margin: 5px 0; /* Espaçamento vertical acima e abaixo do ul */
+  }
+  
+  .footer a {
+    color: #21243D !important; /* Certifique-se de que essa cor esteja correta para o seu design */
+  }
+
+  .footer p {
+    margin: 25px 0; /* Espaçamento vertical acima e abaixo do parágrafo */
+  }
+  
